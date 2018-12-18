@@ -1,0 +1,307 @@
+body
+{
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+    margin-top: -30px;
+    background: url("../img/Image-City-Lights-Epic-Rap-Battles-Of.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: alpha(opacity=20);
+}
+
+#container
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 30%;
+    padding: 0;
+}
+
+.clearBoth
+{
+    clear: both !important;
+}
+
+.marquee
+{
+	margin: 0px;
+	color: aquamarine;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.marqueeFeatured
+{
+    color: greenyellow;
+    font-weight: 900;
+}
+
+.nav
+{
+	background-color: rgba(95, 158, 160, 0.85);
+	text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.currentPageNav
+{
+    opacity: 0.5;
+    cursor: default !important;
+    background-color: transparent !important;
+}
+
+nav
+{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav > ol
+{
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: auto;
+	line-height: 150%;
+	display: inline-block;
+}
+
+.nav > ol a
+{
+    display: block;
+    float:left;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: none;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 10px;
+	border: 1px dashed #efefef;
+    width: auto;
+    font-size: auto;
+    vertical-align: middle;
+    width: 5rem;
+}
+
+.nav > ol a:hover
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	background-color: red;
+	float: left;
+	cursor: pointer;
+}
+
+#content
+{
+    width: 100%;
+	color: #111111;
+	font-size: 22px;
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+    color: #122342;
+    position: relative;
+    margin: 0 auto;
+    display: table;
+}
+
+.imgParalax
+{
+    width: 100%;
+    height: 500pt;
+    background-image: url("https://images.lowes.ca/images/articles/xx_l1_lightbulbs_main.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+/*ogolne ustawienia*/
+
+.imgParalax > h1
+{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 65px;
+    color: deeppink;
+    text-transform: uppercase;
+    padding-top: 15%;
+    position: sticky;
+    top: 20px;
+}
+
+#content > .content2 > .glowna1
+{
+    padding: 10px;
+    text-align: justify;
+    color: yellow;
+}
+
+#content > .content2 > .glowna2
+{
+    text-align: center;
+    color: yellow;
+}
+
+#content > .content2
+{
+    display: block;
+    background-color: rgba(0, 0, 255, 0.3);
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul :before
+{
+    content: "\002666";
+    margin-right: 10px;
+    color: yellow;
+}
+
+ul
+{
+    color: greenyellow;
+}
+
+.slicknav_menu {
+	display: none;
+}
+
+@media only screen and (max-width: 700px) /*@media (pointer:none), (pointer:coarse)*/
+{
+	.slicknav_menu {
+		display: block;
+	}
+
+    .logo
+    {
+        width: 100%;
+        transform: translateX(10%);
+    }
+
+    .nav
+    {
+        display: none;
+    }
+    
+    h1
+    {
+        font-size: 2em !important;
+    }
+    
+    #content
+    {
+        position: relative;
+        transform: translateX(10%);
+    }
+    
+    #footer
+    {
+        width: 100%;
+        position: relative;
+        left: 10%;
+    }
+    
+    marquee
+    {
+        position: relative;
+        left: 10%;
+    }
+    
+    .imgParalax
+    {
+        width: 100%;
+        height: 300pt;
+    }
+    
+    .imgParalax > h1
+    {
+        padding: 100px;
+    }
+}
+
+@media only screen and (max-width: 330px) /*@media (pointer:none), (pointer:coarse)*/
+{
+    #content
+    {
+        position: relative;
+        transform: translateX(0%);
+    }
+}
+
+
+/*koniec ogolnych ustawien*/
+
+/*glowna*/
+
+#content > .content2 > ul
+{
+    text-align: left;
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    list-style-type: none;
+}
+
+#content > .content2 > ul > li
+{
+    display: -webkit-flex;  
+    display: flex;
+}
+
+/*koniec glownej*/
+
+/*kontakt*/
+
+.kontakt
+{
+    text-align: center;
+    line-height: 25px;
+    color: lightgreen;
+    font-size: 25px;
+    font-weight: 900;
+    opacity: 0.8;
+}
+
+.kontakt-featured
+{
+    text-align: center;
+    line-height: 55px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 35px;
+}
+
+/*koniec kontaktu*/
+
+#footer
+{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: coral;
+	font-weight: 900;
+	padding: 10px;
+    padding-top: 30px;
+	text-align: center;
+    margin-top: 50px;
+    border-top: 10px dotted white;
+}

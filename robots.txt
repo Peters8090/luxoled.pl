@@ -1,0 +1,3 @@
+User-agent: *
+Allow: http://luxoled.pl/index.html
+Sitemap: http://luxoled.pl/sitemap.xml
